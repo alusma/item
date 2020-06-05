@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+.rainbow {
+  height: 336px;
+  width: 250px;
+  overflow: hidden;
+  display: inline-block;
+}
+img {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+
+  margin-bottom: 200px;
+  margin-left: -90px;
+}
+body {
+  background: white;
+}
+
+.rainbow div {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.rainbow > div {
+  width: 500px;
+  height: 500px;
+  background: red;
+  border-radius: 50%;
+}
+.rainbow > div > div {
+  border-radius: 50%;
+  height: 470px;
+  margin: 15px;
+  background: orange;
+}
+.rainbow > div > div > div {
+  border-radius: 50%;
+
+  height: 440px;
+  background: yellow;
+  margin: 15px;
+}
+.rainbow > div > div > div > div {
+  border-radius: 50%;
+  height: 410px;
+  background: green;
+  margin: 15px;
+}
+.rainbow > div > div > div > div > div {
+  margin: 15px;
+  height: 380px;
+  border-radius: 50%;
+  background: cyan;
+}
+.rainbow > div > div > div > div > div > div {
+  margin: 15px;
+  border-radius: 50%;
+  height: 350px;
+  background: blue;
+}
+.rainbow > div > div > div > div > div > div > div {
+  margin: 15px;
+  border-radius: 50%;
+  height: 320px;
+  background: purple;
+}
+.rainbow > div > div > div > div > div > div > div > div {
+  margin: 15px;
+  border-radius: 50%;
+  height: 290px;
+  background: white;
+}
