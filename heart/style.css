@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#heart {
+  display: inline-block;
+  margin: 300px;
+  left: 20%;
+  position: relative;
+  transition: all;
+}
+
+#heart > .left {
+  background: red;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 100%;
+  right: 100%;
+  transform: rotate(45deg) translateX(100px);
+  border-radius: 50% 0% 0% 50%;
+}
+#heart > .right {
+  background: red;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 100%;
+  left: 100%;
+  transform: rotate(45deg) translateY(100px);
+  border-radius: 50% 50% 0% 0%;
+}
+#heart > .bottom {
+  width: 150px;
+  height: 150px;
+  background: red;
+  transform: rotate(45deg);
+}
